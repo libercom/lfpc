@@ -1,0 +1,38 @@
+digraph {
+	rankdir=LR size="8,5"
+	node [shape=circle]
+	S
+	node [shape=circle]
+	F
+	S -> F [label=a]
+	node [shape=circle]
+	F
+	node [shape=circle]
+	F
+	F -> F [label=b]
+	node [shape=circle]
+	F
+	node [shape=circle]
+	D
+	F -> D [label=c]
+	node [shape=circle]
+	S
+	node [shape=circle]
+	S
+	S -> S [label=b]
+	node [shape=circle]
+	D
+	node [shape=circle]
+	S
+	D -> S [label=c]
+	node [shape=circle]
+	D
+	node [shape=doublecircle]
+	" "
+	D -> " " [label=a]
+	node [shape=circle]
+	F
+	node [shape=doublecircle]
+	" "
+	F -> " " [label=a]
+}
