@@ -1,0 +1,30 @@
+fn fn1(a, b) {
+    return a + b;
+}
+
+gn gn1(a, b) {
+    yield return a;
+    yield return b;
+}
+
+async fn fn2(a, b) {
+    return a + b;
+}
+
+if (1 == 2) {
+    fn1(1, 2);
+} else if (1 != 2) {
+    gn1(1, 2);
+} else if (1 >= 2) {
+    await fn2(1, 2);
+}
+
+let a = 1;
+let b = 2;
+
+// this is a comment
+
+for (;;) {
+    a++;
+    b--;
+}
