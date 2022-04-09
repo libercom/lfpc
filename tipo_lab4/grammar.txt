@@ -1,0 +1,10 @@
+S A
+A aX
+A bX
+A X
+X BX
+X b
+B AD
+D aD
+D a
+C Ca
